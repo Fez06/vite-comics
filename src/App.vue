@@ -12,6 +12,6 @@
   <AppHeader/>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
     @use './variables.scss' as *;
 </style>
