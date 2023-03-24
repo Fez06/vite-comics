@@ -88,12 +88,11 @@
 
             .right {
                 position: relative;
-                
 
                 img {
                     position: absolute;
                     right: 0;
-                    top: -50px;
+                    top: -80px;
                 }
             }
             .left {
@@ -102,7 +101,7 @@
                 & > div {
                     display: flex;
                     flex-direction: column;
-                    margin: 30px 50px 50px 0;
+                    margin: 20px 50px 30px 0;
                 }
 
                 div {
@@ -110,6 +109,11 @@
                     h2 {
                         margin: 20px 0;
                     }
+                }
+
+                li {
+                    color: gray;
+                    padding-bottom: 5px;
                 }
             }
 

@@ -40,7 +40,7 @@
     // }
 
     .bg {
-        background-color: rgb(96, 29, 29);
+        background-color: white;
     }
     .container {
         display: flex;
