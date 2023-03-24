@@ -85,6 +85,7 @@
             width: 70%;
             display: flex;
             justify-content: space-between;
+            margin: auto;
 
             .right {
                 position: relative;

@@ -1,5 +1,10 @@
 <script>
+    import AppMainJunboVue from './AppMainJunbo.vue';
     export default {
+        components: {
+            AppMainJunboVue
+        },
+
         data() {
             return {
 
@@ -9,22 +14,9 @@
 </script>
 
 <template>
-    <div class="bg">
-        <div class="container">
-            <h1> -- Content goes here -- </h1>
-        </div>
-    </div>    
+    <AppMainJunboVue/>
 </template>
 
 <style lang="scss">
-   .bg {
-        background-color: black;
-        
-        .container {
-            width: 70%;
-            margin: auto;
-
     
-        }
-    }
 </style>

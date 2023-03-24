@@ -29,13 +29,17 @@
 
 <style lang="scss" scoped>
     @use '../variables.scss' as *;
+
+    .bg {
+        background-color: black;
+    }
     .container {
         width: 70%;
         display: flex;
         padding: 30px 0;
         margin: auto;
         justify-content: space-between;
-        background-color: black;
+        
 
         .left {
             button {
