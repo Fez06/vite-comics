@@ -31,7 +31,7 @@
     @use '../variables.scss' as *;
 
     .bg {
-        background-color: black;
+        background-color: #303030;
     }
     .container {
         width: 70%;

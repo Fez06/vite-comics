@@ -1,8 +1,11 @@
 <script>
     import AppMainJunboVue from './AppMainJunbo.vue';
+    import AppMainCatalogueVue from './AppMainCatalogue.vue';
+
     export default {
         components: {
-            AppMainJunboVue
+            AppMainJunboVue,
+            AppMainCatalogueVue
         },
 
         data() {
@@ -15,6 +18,7 @@
 
 <template>
     <AppMainJunboVue/>
+    <AppMainCatalogueVue/>
 </template>
 
 <style lang="scss">
