@@ -9,25 +9,27 @@
 </script>
 
 <template>
-    <div class="container">
-        <div>
-            <img src="../../public/img/dc-logo.png" alt="logo">
-            <!-- <h1>ff</h1> -->
-        </div>
+    <div class="bg">
+        <div class="container">
+            <div>
+                <img src="../../public/img/dc-logo.png" alt="logo">
+                <!-- <h1>ff</h1> -->
+            </div>
 
-        <ul>
-            <li>CHARACTERS</li>
-            <li>COMICS</li>
-            <li>MOVIES</li>
-            <li>TV</li>
-            <li>GAMES</li>
-            <li>COLLECTIBLES</li>
-            <li>VIDEOS</li>
-            <li>FANS</li>
-            <li>NEWS</li>
-            <li>SHOP</li>
-        </ul>
-    </div>
+            <ul>
+                <li>CHARACTERS</li>
+                <li>COMICS</li>
+                <li>MOVIES</li>
+                <li>TV</li>
+                <li>GAMES</li>
+                <li>COLLECTIBLES</li>
+                <li>VIDEOS</li>
+                <li>FANS</li>
+                <li>NEWS</li>
+                <li>SHOP</li>
+            </ul>
+        </div>
+    </div>    
 </template>
 
 <style lang="scss" scoped>
@@ -37,13 +39,15 @@
     //     color: $footerBlue;
     // }
 
+    .bg {
+        background-color: rgb(96, 29, 29);
+    }
     .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 70%;
         margin: 0 auto;
-        background-color: rgb(96, 29, 29);
     }
 
     ul {
