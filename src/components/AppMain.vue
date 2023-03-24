@@ -24,10 +24,7 @@
             width: 70%;
             margin: auto;
 
-            h1 {
-                color: white;
-                padding: 50px 0;
-            }
+    
         }
     }
 </style>
