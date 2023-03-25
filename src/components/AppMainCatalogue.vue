@@ -1,8 +1,16 @@
 <script>
+    import AppCards from './AppCards.vue';
+    import AppMainCatalogueList from './AppMainCatalogueList.vue';
+
     export default {
+        components: {
+            AppCards,
+            AppMainCatalogueList
+        },
+
         data() {
             return {
-
+                
             }
         }
     }
@@ -12,6 +20,7 @@
     <div class="bg">
         <div class="container">
             <h3>CURRENT SERIES</h3>
+            <AppMainCatalogueList/>
         </div>
     </div>
 </template>
