@@ -5,7 +5,7 @@
             thumb: String,
             series: String            
         },
-        
+
         data() {
             return {
 
@@ -27,10 +27,18 @@
     .box {
         height: 250px;
         width: 190px;
+        margin: auto;
+        text-align: center;
 
         img {
             max-height: 80%;
             width: auto;
+        }
+
+        .serie {
+            inline-size: 140px;
+            overflow-wrap: break-word;
+            font-size: 12px;
         }
     }
 </style>

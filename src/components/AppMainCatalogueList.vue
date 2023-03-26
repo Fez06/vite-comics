@@ -102,5 +102,17 @@
 <style lang="scss" scoped>
 @use '../variables.scss' as *;
 
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    
+
+    li {
+        width: calc(100% / 6);
+    }
+}
+
 
 </style>

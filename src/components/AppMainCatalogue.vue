@@ -21,6 +21,7 @@
         <div class="container">
             <h3>CURRENT SERIES</h3>
             <AppMainCatalogueList/>
+            <button>LOAD MORE</button>
         </div>
     </div>
 </template>
@@ -30,10 +31,10 @@
     .bg {
         background-color: #1c1c1c;
         .container {
-            height: 200px;
             width: 70%;
             margin: auto;
             position: relative;
+            text-align: center;
 
             h3 {
                 color: white;
@@ -43,6 +44,13 @@
                 top: 0;
                 left: 0;
                 transform: translate(-0%, -50%);
+            }
+
+            button {
+                background-color: $footerBlue;
+                border: 0;
+                margin-bottom: 10px;
+                padding: 15px 60px;
             }
         }
     }
